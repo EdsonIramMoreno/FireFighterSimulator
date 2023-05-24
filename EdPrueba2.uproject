@@ -3,9 +3,24 @@
 	"EngineAssociation": "5.1",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "EdPrueba2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ResonanceAudio",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		},
+		{
+			"Name": "SERIALCOM",
 			"Enabled": true
 		},
 		{
@@ -19,12 +34,9 @@
 			]
 		},
 		{
-			"Name": "OnlineSubsystemOculus",
-			"Enabled": true
-		},
-		{
-			"Name": "SERIALCOM",
-			"Enabled": true
+			"Name": "VaRest",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f"
 		}
 	],
 	"TargetPlatforms": [
